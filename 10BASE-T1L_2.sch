@@ -6851,8 +6851,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
-<part name="R68" library="ruark2" deviceset="0603_RESISTOR" device="" value="100k"/>
-<part name="R69" library="ruark2" deviceset="0603_RESISTOR" device="" value="24.9k"/>
+<part name="R68" library="ruark2" deviceset="0603_RESISTOR" device="" value="115k"/>
+<part name="R69" library="ruark2" deviceset="0603_RESISTOR" device="" value="49.9k"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6996,6 +6996,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C61" library="ruark2" deviceset="0402_CAPACITOR" device="" value="10nF"/>
+<part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8023,6 +8025,13 @@ FX_EN=0, AN_EN=1, AN_1=0, AN_0=1:
 <instance part="+3V21" gate="G$1" x="238.76" y="22.86" smashed="yes">
 <attribute name="VALUE" x="236.22" y="17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C61" gate="G$1" x="127" y="71.12" smashed="yes">
+<attribute name="NAME" x="128.524" y="74.041" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.524" y="68.961" size="1.778" layer="96"/>
+</instance>
+<instance part="GND86" gate="1" x="127" y="63.5" smashed="yes">
+<attribute name="VALUE" x="124.46" y="60.96" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8475,6 +8484,11 @@ FX_EN=0, AN_EN=1, AN_1=0, AN_0=1:
 <segment>
 <pinref part="C60" gate="G$1" pin="2"/>
 <pinref part="GND85" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND86" gate="1" pin="GND"/>
+<pinref part="C61" gate="G$1" pin="2"/>
+<wire x1="127" y1="66.04" x2="127" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CEXT_L" class="0">
@@ -9113,8 +9127,12 @@ FX_EN=0, AN_EN=1, AN_1=0, AN_0=1:
 <pinref part="U1" gate="G$1" pin="!RST_N"/>
 <wire x1="160.02" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="93.98" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <label x="111.76" y="78.74" size="1.778" layer="95"/>
+<pinref part="C61" gate="G$1" pin="1"/>
+<wire x1="127" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="127" y1="76.2" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<junction x="127" y="78.74"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="!RESET\"/>
