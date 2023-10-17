@@ -7218,6 +7218,12 @@ FX_EN=0, AN_EN=1, AN_1=0, AN_0=1:
 <text x="132.08" y="223.52" size="1.778" layer="91">388kHz</text>
 <text x="187.96" y="238.76" size="1.778" layer="91">0.4App</text>
 <text x="205.74" y="213.36" size="1.778" layer="91">3.32V Set Point</text>
+<text x="231.14" y="165.1" size="1.778" layer="91">PHYs indlude 50R source termination 
+resistors on MAC lines.</text>
+<text x="76.2" y="127" size="1.778" layer="91">200uH</text>
+<text x="73.66" y="81.28" size="1.778" layer="91">Footprint compatible with
+Wurth 74930000 350uH
+transformer</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="165.1" y="73.66" smashed="yes">
