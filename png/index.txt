@@ -1,0 +1,20 @@
+24: At PD PHY in reset 31V.
+25: before transformer
+26: after transformer pse
+27: At pse phy
+28: At PD PHY in reset 16V.
+29: At PD PHY in reset 10V.
+30: At PD PHY in reset 30V 1000ft cca
+31:... separate power
+32: ... 48V
+33: no podl on one end
+34: no podl on either end
+35: no podl on either end + no transformer on one end
+36: Shorting transient at xfmr toward phy
+37: shorting transient at phy
+38: Other side of shorting transient at phy.
+39: Maybe change from 1V to 2.4V
+40: Shorting transient at xfmr primary
+41: same
+42: xfmr CT
+42: other side of xfmr primary.
