@@ -17,4 +17,19 @@
 40: Shorting transient at xfmr primary
 41: same
 42: xfmr CT
-42: other side of xfmr primary.
+43: other side of xfmr primary.
+44: nothing
+45: Link aquisition short cable
+46: Link aquisition short cable
+47: Link aquisition short cable. Transition to both running. End of link training I guess.
+48: Same
+49: Long Cable TX vs. Line
+50: Short Cable TX vs. Line
+51: Short Cable Line
+52: Long Cable Line
+59: 3000' autoneg
+60: same
+61: trash
+62: Master link training
+63: slave link training
+66-68: short link TX vs line

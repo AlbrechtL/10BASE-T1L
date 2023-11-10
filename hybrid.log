@@ -1,9 +1,9 @@
-Circuit: * C:\users\rruark\My Documents\Documents\pcb\10BASE-T1L\Draft1.asc
+Circuit: * C:\users\rruark\My Documents\Documents\pcb\10BASE-T1L\hybrid.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Oct 22 21:58:44 2023
-Total elapsed time: 0.136 seconds.
+Date: Sun Nov 05 21:09:25 2023
+Total elapsed time: 0.161 seconds.
 
 tnom = 27
 temp = 27
@@ -17,5 +17,5 @@ matrix size = 15
 fillins = 2
 solver = Normal
 Matrix Compiler1: 758 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 1.28 KB object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
 
