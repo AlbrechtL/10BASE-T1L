@@ -7048,8 +7048,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="C55" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="C56" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
 <part name="C57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22uF"/>
-<part name="R68" library="ruark2" deviceset="0603_RESISTOR" device="" value="22k"/>
-<part name="R69" library="ruark2" deviceset="0603_RESISTOR" device="" value="51k"/>
+<part name="R68" library="ruark2" deviceset="0603_RESISTOR" device="" value="51k"/>
+<part name="R69" library="ruark2" deviceset="0603_RESISTOR" device="" value="22k"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
