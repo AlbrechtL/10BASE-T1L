@@ -1,4 +1,4 @@
-<img src="img/final.jpg" alt="" style="width:400px;" class="imgholder">
+<img src="final.jpg" alt="" style="width:400px;" class="imgholder">
 <p class="center"><i>Completed 10BASE-T1L Adapters</i></p>
 
 The final design and production files for the main PCB are in the 'rev3' folder. 
