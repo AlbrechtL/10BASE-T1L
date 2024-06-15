@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1.6" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -381,8 +381,8 @@
 <vertex x="-14.604228125" y="-10.183390625"/>
 <vertex x="-14.782028125" y="-10.10515625"/>
 </polygon>
-<text x="-11.957040625" y="-8.62078125" size="1.016" layer="30" font="vector" ratio="15" rot="MR180">059</text>
-<text x="-17.938740625" y="-8.95098125" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">MMXXIII</text>
+<text x="-11.957040625" y="-8.62078125" size="1.016" layer="30" font="vector" ratio="15" rot="MR180">002</text>
+<text x="-17.938740625" y="-8.95098125" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">MMXXIV</text>
 <text x="-4.138" y="5.24" size="1" layer="26" font="vector" rot="MR270">JLCJLCJLCJLC</text>
 <wire x1="0" y1="-5.1" x2="0" y2="-4.6" width="0.1524" layer="51"/>
 <wire x1="-31" y1="-5" x2="31" y2="-5" width="0.01" layer="48"/>
@@ -396,14 +396,14 @@
 <wire x1="19.224" y1="-6" x2="19.224" y2="-5.2" width="0.1524" layer="51"/>
 <wire x1="2.206" y1="-4.8" x2="2.206" y2="-5.2" width="0.1524" layer="51"/>
 <wire x1="0" y1="-5.1" x2="0" y2="-4.6" width="0.1524" layer="52"/>
-<wire x1="-7.614" y1="8.003" x2="-7.614" y2="-4.891" width="0" layer="20"/>
+<wire x1="-7.614" y1="6.403" x2="-7.614" y2="-4.891" width="0" layer="20"/>
 <wire x1="-7.614" y1="-4.891" x2="-8.167" y2="-5.444" width="0" layer="20" curve="-90"/>
 <wire x1="-8.167" y1="-5.444" x2="-23.461" y2="-5.444" width="0" layer="20"/>
 <wire x1="-23.461" y1="-5.444" x2="-24.014" y2="-4.891" width="0" layer="20" curve="-90"/>
-<wire x1="-24.014" y1="-4.891" x2="-24.014" y2="8.003" width="0" layer="20"/>
-<wire x1="-24.014" y1="8.003" x2="-23.461" y2="8.556" width="0" layer="20" curve="-90"/>
-<wire x1="-23.461" y1="8.556" x2="-8.167" y2="8.556" width="0" layer="20"/>
-<wire x1="-8.167" y1="8.556" x2="-7.614" y2="8.003" width="0" layer="20" curve="-90"/>
+<wire x1="-24.014" y1="-4.891" x2="-24.014" y2="6.403" width="0" layer="20"/>
+<wire x1="-24.014" y1="6.403" x2="-23.461" y2="6.956" width="0" layer="20" curve="-90"/>
+<wire x1="-23.461" y1="6.956" x2="-8.167" y2="6.956" width="0" layer="20"/>
+<wire x1="-8.167" y1="6.956" x2="-7.614" y2="6.403" width="0" layer="20" curve="-90"/>
 <wire x1="9.186" y1="7.447" x2="9.186" y2="-4.821" width="0" layer="20"/>
 <wire x1="9.186" y1="-4.821" x2="8.633" y2="-5.374" width="0" layer="20" curve="-90"/>
 <wire x1="8.633" y1="-5.374" x2="-1.061" y2="-5.374" width="0" layer="20"/>
@@ -428,7 +428,7 @@
 <text x="-15.8" y="10.296" size="1.27" layer="21" font="vector" ratio="10" align="center">10BASE-T</text>
 <text x="-0.4" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">D+</text>
 <text x="2.2" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">D-</text>
-<text x="4.8" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">CGND</text>
+<text x="4.8" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">GND</text>
 <text x="17.9" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">RTN</text>
 <text x="20.5" y="-6.4" size="1.27" layer="21" font="vector" ratio="10" rot="R90" align="center-right">PWR</text>
 <text x="3.758" y="10.296" size="1.27" layer="21" font="vector" ratio="10" align="center">10BASE-T1L</text>
@@ -446,8 +446,8 @@
 <text x="-21.082" y="-10.16" size="1.27" layer="25" font="vector" ratio="10" align="center">RX</text>
 <wire x1="-21.082" y1="-8.636" x2="-21.082" y2="-9.144" width="0.2032" layer="25"/>
 <text x="20.8014" y="10.296" size="1.27" layer="21" font="vector" ratio="10" align="center">5-60V</text>
-<text x="13.97" y="0" size="1.016" layer="21" font="vector" ratio="10" rot="R90" align="center">Internal jumpers set whether 
-device is PSE or PD. See manual.</text>
+<text x="13.97" y="0" size="1.016" layer="21" font="vector" ratio="10" rot="R90" align="center">Internal jumpers set PoDL status
+PoDL is disabled by default</text>
 </plain>
 <libraries>
 </libraries>
